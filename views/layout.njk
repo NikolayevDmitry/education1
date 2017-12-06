@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> {% block title %} {% endblock %} </title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/montserrat.css" rel="stylesheet">
+  <link href="css/lato.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body id="page-top">
+  {% include 'partials/navbar.njk' %}
+  {% block content %} {% endblock %}
+  {% include 'partials/footer.njk' %}
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
